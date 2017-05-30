@@ -3,7 +3,13 @@
 // Created: 2017-05-26
 
 // show all errors
-SetErrorMode(2)
+// SetErrorMode(2)
+
+/*
+This code is to test the ID numbers of the keys on the Keyboard. The default ones that work in the tutorial is set to US layout. 
+This will display the Id number
+*/
+
 
 // set window properties
 SetWindowTitle( "KeyboardTEST" )
@@ -20,8 +26,6 @@ UseNewDefaultFonts( 1 ) // since version 2.0.22 we can use nicer default fonts
 
 
 do
-    
-
     Print( "Keyboard Test" )
     Gosub keyboard_test
     Sync()
